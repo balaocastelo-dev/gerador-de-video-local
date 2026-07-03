@@ -15,7 +15,7 @@ export function ProcessSchedulesButton() {
         onClick={() =>
           startTransition(async () => {
             const result = await processPendingJobsAction();
-            setMessage(result.error ?? result.success ?? null);
+            setMessage(result.success ?? null);
           })
         }
         disabled={pending}
