@@ -1,0 +1,13 @@
+.next
+node_modules
+.env
+.env.local
+.env.production
+.env.development
+coverage
+dist
+out
+*.log
+.tools
+tsconfig.tsbuildinfo
+.sandbox-data
